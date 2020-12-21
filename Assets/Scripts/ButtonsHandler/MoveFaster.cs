@@ -8,8 +8,8 @@ using UnityEngine.UI;
 public class MoveFaster : MonoBehaviour, IPointerDownHandler
 {
     internal bool moveFasterBtn = false;
-    private string slow = "Slower";
-    private string fast = "Faster";
+    private string slow = "1x";
+    private string fast = "2x";
 
 
     public void OnPointerDown(PointerEventData eventData)
